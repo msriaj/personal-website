@@ -1,0 +1,47 @@
+img{width: 100%;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header_bg {background-image: url(header-bg.png);
+background-position: center;
+background-size:cover;}
+.contact_details h1{ color: #EC4C7A;
+font-weight: 700;
+
+}
+.contact_details{
+    padding-left: 80px;
+}
+.hire_buttons {padding: 10px 25px;
+background: #ec4c7a;
+text-decoration: none;
+border-radius: 7px;
+font-weight: 700;
+color: #fff;}
+.bio_bg{
+    background-image: url(biography-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.bio_bg img{
+    width: 500px;
+
+}
+.work{
+    padding: 50px;
+}
+.work_bg{
+    background-image: url(latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.work_bg img {width: 300px;
+margin: 20px;}
+.client{
+    background-image: url(footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 80px 100px;
+    text-align: center;
+}
